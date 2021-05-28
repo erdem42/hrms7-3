@@ -19,7 +19,7 @@ public class EmployerRegisterManager implements EmployerRegisterService{
 	@Autowired
 	private EmployerDao employerDao;
 	
-	
+	//add 
 	@Override
 	public Result addEmployer(Employer employer) {
 
@@ -37,7 +37,7 @@ public class EmployerRegisterManager implements EmployerRegisterService{
 		return new SuccessResult("Data added");
 	}
 
-
+//list
 	@Override
 	public DataResult<List<Employer>> getAll() {
 		
