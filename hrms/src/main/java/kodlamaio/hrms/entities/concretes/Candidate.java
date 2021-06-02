@@ -21,6 +21,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Candidate extends User {
 
+
+	
 	@Column(name = "first_name")
 	private String firstName;
 	
